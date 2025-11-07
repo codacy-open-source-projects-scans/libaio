@@ -1,7 +1,12 @@
-# libaio - master branch
+# libaio
 
-This repository contains the frozen state of the repository.
-Its history is cleared. It is used only for static code
-analysis with Codacy.
+The Linux-native asynchronous I/O facility ("async I/O", or "aio") has a
+richer API and capability set than the simple POSIX async I/O facility.
+This library, libaio, provides the Linux-native API for async I/O.
+The POSIX async I/O facility requires this library in order to provide
+kernel-accelerated async I/O capabilities, as do applications which
+require the Linux-native async I/O API.
 
-Commit Time: 1729388807
+## Contributing
+
+Patches should be submitted to linux-aio@kvack.org.
